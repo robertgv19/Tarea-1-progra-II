@@ -9,16 +9,16 @@ import javax.persistence.Id;
 @Table(name = "t_employee")
 public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-        @Id
-        private Integer id;
+    @Id
+    private Integer id;
 
     private String firstname;
     private String lastname;
 
-    public Employee(String firstname,String lastname) {
-        this.firstname = firstname;
+    /*public Employee(String firstname,String lastname) {
+      / this.firstname = firstname;
         this.lastname = lastname;
-    }
+    }*/
 
     public Integer getId() {
         return this.id;
