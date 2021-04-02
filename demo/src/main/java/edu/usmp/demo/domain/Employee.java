@@ -12,8 +12,8 @@ public class Employee {
     @Id
     private Integer id;
 
-    private String firstname;
-    private String lastname;
+    private String name;
+    private double precio;
 
     /*public Employee(String firstname,String lastname) {
       / this.firstname = firstname;
@@ -30,19 +30,19 @@ public class Employee {
 
 
 
-    public String getFirstname() {
-        return this.firstname;
+    public String getname() {
+        return this.name;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public void setname(String name) {
+        this.name = name;
     }
 
-    public String getLastname() {
-        return this.lastname;
+    public double getprecio() {
+        return this.precio;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setprecio(double precio) {
+        this.precio = precio;
     }
 }
